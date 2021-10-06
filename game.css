@@ -1,11 +1,36 @@
-#player1name, #player2name{
-display: inline-block;
+body
+{
+	background: rgba(91, 109, 189, 0.911);
 }
-body {
-    background-color: black;
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
 }
-#tit {
-    color: rgb(0, 255, 179);
-    font-family: 'Fira Sans', sans-serif;
-    ;
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: rgb(0, 102, 255);
+border-radius: 10px;
+border-top: 10px solid #ff0000;
+padding: 10px;
+float: none;
+text-align: left;
 }
