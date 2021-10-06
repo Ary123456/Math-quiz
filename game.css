@@ -1,0 +1,11 @@
+#player1name, #player2name{
+display: inline-block;
+}
+body {
+    background-color: black;
+}
+#tit {
+    color: rgb(0, 255, 179);
+    font-family: 'Fira Sans', sans-serif;
+    ;
+}
